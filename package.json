@@ -86,5 +86,13 @@
     "atom-space-pen-views": "^2.0.0",
     "escape-string-regexp": "^1.0.3",
     "fuzzaldrin": "^2.1.0"
+  },
+  "providedServices": {
+    "atom-fuzzy-grep": {
+      "description": "a fuzzy grep view",
+      "versions": {
+        "1.0.0": "provideFuzzyGrep"
+      }
+    }
   }
 }

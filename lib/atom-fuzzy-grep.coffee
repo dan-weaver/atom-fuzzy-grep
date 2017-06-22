@@ -16,3 +16,8 @@ module.exports =
   createView: ->
     GrepView ?= require './atom-fuzzy-grep-view'
     @grepView ?= new GrepView()
+
+  provideFuzzyGrep: ->
+    that = @
+    getCurrentItems: ->
+      that.grepView.items
